@@ -1,3 +1,5 @@
+# Code largely taken from source listed in readme file.
+
 import argparse
 from pathlib import Path
 import os
