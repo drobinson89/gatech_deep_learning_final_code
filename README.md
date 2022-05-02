@@ -8,15 +8,24 @@ Supporting code: https://github.com/diyiiyiii/StyTR-2
 
 In the original work, they list the wrong version of torch to be imported. Use 1.8.1. Below are the commands for setting up environement.
 
-sudo update-alternatives --config python3
-change to version3.6
+Python version: 3.6
+
+pytorch version 1.8.1
+
+Commands for setting up environemnt
+
 install pip: sudo apt-get install python3-pip
+
 upgrade pip: python -m pip install --upgrade
-had to install pytorch version 1.8.1
+
 pip install torch==1.8.1+cpu torchvision==0.9.1+cpu torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
-upgrade Pil
+
 python3 -m pip install --upgrade Pillow
+
 python3 -m pip install scipy
+
 python3 -m pip install tqdm
+
 python3 -m pip install numpy
+
 python3 -m pip install matplotlib
